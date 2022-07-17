@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    min-height: 12vh;
+    justify-content: space-bet;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+}
+.logo-title{
+    color: #000;
+}
+.quiz-links{
+    position: relative;top: 5px;
+}
+.quiz-links li{
+    list-style-type: none;
+}
+.user{
+    color: #000;
+}
+.logo{
+    display: flex;
+}
+
+
+/* menu stylings goes here */
+.menu{
+    position: absolute;
+    left: -60px;
+    font-size: 28px;
+}

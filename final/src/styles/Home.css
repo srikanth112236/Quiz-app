@@ -1,0 +1,86 @@
+.slide-1{
+    background-color: #22b1ff;
+    width: 100%;
+    min-height: 90vh;
+   
+}
+.slide{
+    display: flex;
+    min-height: 90vh;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+}
+.slide-logo{
+    width: 40% !important;
+}
+.slide-logo img{
+    width: 100%;
+}
+.slide-content{
+    width: 40%;
+}
+.slide-one-title{
+    text-align: left;
+    color: #fff;
+    font-size: 2em;
+    font-weight: normal;
+    font-family: 'BS', sans-serif;
+    line-height: 1;
+}
+.title-descp{
+    color: #fff !important;
+    letter-spacing: 1.2px;word-spacing: 2px;
+}
+.slide-btn{
+    background-color: rgba(47, 209, 201, 0.17);
+    box-shadow: 1px 5px 10px rgb(27, 120, 219);
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        z-index: 1;
+        max-width: 250px;
+        padding: 0 22px;
+        height: 58px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+        font-size: 18px;
+        line-height: 1;
+        text-decoration: none;
+        font-weight: 600;
+        white-space: nowrap;
+        text-align: center;
+        border: none;
+        cursor: pointer;
+        font-family: 'BS', Roboto, Arial, sans-serif;
+    }
+    .slide-btn:hover{
+        background-color: rgb(29, 195, 255);
+        color: #fff;
+    }
+
+    /* slide 2 stylings goes here */
+    .slide-2{
+        background-image: linear-gradient(0deg, #4483cf 0%, #29456d 100%);
+    }
+    .slide2-content li{
+        color: #fff;
+        list-style-type: none;
+        margin: 10px 0px;
+        list-style-type: square;
+        padding: 5px 0;
+    }
+
+    /* slide 3 styling goes here */
+    .slide-3{
+        background-image: linear-gradient(0deg, #4483cf 0%, #29456d 100%);
+    }
+
+    .slide-4{
+        background-image: linear-gradient(-180deg, #4481cf 0%, rgb(191, 236, 228) 100%);
+    }
+    

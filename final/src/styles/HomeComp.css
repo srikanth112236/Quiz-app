@@ -1,0 +1,40 @@
+.home{
+  background-color: #7cc6fe;
+}
+.home-comp{
+    width: 75%;
+    margin: 0px auto;
+    min-height: 100vh;
+  /* display: flex;justify-content: center;align-items: center; */
+}
+.category-1{
+  padding: 10px 20px;
+margin: 25px 5px;
+  display: flex;
+  width:40%;
+  justify-content: center;
+  gap: 2rem;
+  background-color: aliceblue;
+  
+}
+.content{
+
+  min-height: 20vh;
+  text-align: center;
+}
+.category-logo{
+  width: 13%;
+  height: 13%;
+}
+.category-logo img{
+  width: 100%;
+}
+.test-title{
+  color: #000;
+}
+.quiz-category{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
